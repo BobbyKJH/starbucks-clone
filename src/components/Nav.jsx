@@ -12,7 +12,17 @@ function Nav() {
         />
       </Link>
       <Link to="/menu" className={styles.content}>
-        2
+        COFFEE
+      </Link>
+      <Link to="/menu" className={styles.content}>
+        MENU
+      </Link>
+      <Link to="/menu" className={styles.content}>
+        STORE
+      </Link>
+
+      <Link to="/sign" className={styles.signin}>
+        로그인
       </Link>
     </div>
   );

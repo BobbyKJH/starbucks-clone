@@ -1,0 +1,20 @@
+/* 전체박스 */
+.body {
+  display: flex;
+  background-color: gray;
+  margin: auto;
+}
+/* 메뉴 */
+.menu {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  justify-self: center;
+}
+.link {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
