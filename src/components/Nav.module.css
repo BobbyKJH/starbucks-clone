@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+/* 전체 박스 */
+.body {
+  display: flex;
+  border: 1px solid black;
+  height: 100px;
+}
+/* 제목 */
+.title {
+  width: 25%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+}
+/* nav 내용 */
+.content {
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+}
