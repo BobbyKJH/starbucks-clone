@@ -11,17 +11,17 @@ function Nav() {
           alt="starbucks logo"
         />
       </Link>
-      <Link to="/menu" className={styles.content}>
+      <Link to="/coffee" className={styles.content}>
         COFFEE
       </Link>
       <Link to="/menu" className={styles.content}>
         MENU
       </Link>
-      <Link to="/menu" className={styles.content}>
+      <Link to="/store" className={styles.content}>
         STORE
       </Link>
 
-      <Link to="/sign" className={styles.signin}>
+      <Link to="/signin" className={styles.signin}>
         로그인
       </Link>
     </div>
