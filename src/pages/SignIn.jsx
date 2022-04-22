@@ -1,5 +1,6 @@
 import Nav from "../components/Nav";
 import SecondNav from "../components/SecondNav";
+import SignInBox from "../components/SignInBox";
 import styles from "./SignIn.module.css";
 
 function SignIn() {
@@ -9,6 +10,7 @@ function SignIn() {
       <div className={styles.SecondNav}>
         <SecondNav name={"HOME"} menu={"SignIn"} />
       </div>
+      <SignInBox />
     </>
   );
 }

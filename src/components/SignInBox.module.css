@@ -1,0 +1,55 @@
+hr {
+  margin: 0;
+}
+/* 전체 배경 스타일 */
+.body {
+  border: 1px solid black;
+}
+/* 로그인 박스 */
+.box {
+  background-color: #fff;
+  border: 3px solid black;
+  margin: 50px auto;
+  width: 600px;
+  height: 500px;
+}
+/* 로그인 글자 */
+.title {
+  background-color: greenyellow;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: 0;
+  height: 80px;
+}
+/* 로그인 ID PW */
+.LoginBox {
+  margin-top: 70px;
+}
+.LogIn {
+  display: block;
+  margin: auto;
+  text-align: left;
+  padding: 50px;
+  border: 1px solid black;
+  width: 450px;
+  height: 50px;
+  margin: 10px auto;
+  padding: 0 10px;
+}
+.LogIn:focus {
+  border: 1px solid blue;
+}
+.btn {
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  border: 1px solid green;
+  background-color: green;
+  color: #fff;
+  font-weight: 900;
+  width: 450px;
+  height: 50px;
+  padding: 0;
+}
