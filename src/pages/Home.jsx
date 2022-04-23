@@ -8,9 +8,7 @@ function Home() {
       {/* 메인 nav */}
       <Nav />
       {/* 서브 nav */}
-      <div className={styles.SecondNav}>
-        <SecondNav name={"coffee"} menu={"coffe"} />
-      </div>
+      <div className={styles.SecondNav}></div>
     </>
   );
 }

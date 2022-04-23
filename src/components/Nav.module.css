@@ -13,17 +13,18 @@ ul {
   position: fixed;
   background-color: #f6f5ef;
   top: 0;
-  width: 100%;
+  right: 0;
+  left: 0;
   height: 120px;
 }
 
 /* 제목 */
 .title {
-  width: 30%;
   justify-content: center;
   align-items: center;
   display: flex;
   text-decoration: none;
+  margin: 0 150px;
 }
 
 /* 스타벅스 로고 */

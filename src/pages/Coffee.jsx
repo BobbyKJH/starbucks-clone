@@ -1,3 +1,4 @@
+import Menu from "../components/BeverageMenu";
 import Nav from "../components/Nav";
 import SecondNav from "../components/SecondNav";
 import styles from "./Coffee.module.css";

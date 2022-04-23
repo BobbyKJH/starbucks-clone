@@ -1,0 +1,15 @@
+.body {
+  display: block;
+  margin: 10px auto;
+  border: 5px solid black;
+  width: 1000px;
+}
+.menu {
+  display: flex;
+}
+.select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+}

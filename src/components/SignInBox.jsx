@@ -22,7 +22,7 @@ function SignInBox() {
     <div className={styles.body}>
       <div className={styles.box}>
         <h4 className={styles.title}>
-          Welcome! 스타벅스 코리아에 오신 것을 환영합니다.
+          <span>Welcome!</span> 스타벅스 코리아에 오신 것을 환영합니다.
         </h4>
         <hr />
         <form className={styles.LoginBox} onSubmit={onSubmit}>
@@ -46,6 +46,15 @@ function SignInBox() {
             로그인
           </button>
         </form>
+        <hr />
+
+        <div className={styles.Membership}>
+          <p className={styles.join}>회원가입</p>
+          <hr />
+          <p className={styles.join}>아이디 찾기</p>
+          <hr />
+          <p className={styles.join}>비밀번호 찾기</p>
+        </div>
       </div>
     </div>
   );

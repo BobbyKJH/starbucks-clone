@@ -15,7 +15,7 @@ hr {
 }
 /* 로그인 글자 */
 .title {
-  background-color: greenyellow;
+  background-color: #fff;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -23,9 +23,12 @@ hr {
   margin: 0;
   height: 80px;
 }
+.title > span {
+  color: #006633;
+}
 /* 로그인 ID PW */
 .LoginBox {
-  margin-top: 70px;
+  margin: 70px 0;
 }
 .LogIn {
   display: block;
@@ -52,4 +55,17 @@ hr {
   width: 450px;
   height: 50px;
   padding: 0;
+}
+/* 회원가입 아이디 비밀번호 찾기 */
+.Membership {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.join {
+  display: block;
+  width: 33.3%;
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
 }
