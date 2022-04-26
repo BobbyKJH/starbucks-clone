@@ -1,3 +1,10 @@
+.backGround {
+  background-image: url("../images/favorite_bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 800px;
+}
+
 .SecondNav {
   margin-top: 120px;
   /* z-index: 1; */

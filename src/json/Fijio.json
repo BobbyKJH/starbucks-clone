@@ -1,0 +1,42 @@
+[
+  {
+    "id": 321,
+    "name": "매직 팝 스플래쉬 피지오",
+    "description": "신비한 보라색의 피지오가 팝시클이 녹으면서 핑크색으로 점차 변하며 마법이 일어난 것 같은 피지오 음료\r\n\r\n* 용인에버랜드R 매장에서만 판매하는 음료입니다",
+    "price": 1900,
+    "image": "https://www.istarbucks.co.kr/upload/store/skuimg/2019/07/[9200000002402]_20190711125640433.jpg",
+    "kcal": 320
+  },
+  {
+    "id": 322,
+    "name": "블랙 티 레모네이드 피지오",
+    "description": "블랙 티와 상큼한 레모네이드를 스파클링한 시원하고 청량감 있는 음료입니다.",
+    "price": 6000,
+    "image": "https://www.istarbucks.co.kr/upload/store/skuimg/2016/09/[107025]_20160905095924499.jpg",
+    "kcal": 65
+  },
+  {
+    "id": 323,
+    "name": "쿨 라임 피지오",
+    "description": "그린 빈 추출액이 들어간 라임 베이스에 건조된 라임 슬라이스를 넣고 스파클링한 시원하고 청량감 있는 음료입니다. (카페인이 함유된 탄산음료입니다)",
+    "price": 9100,
+    "image": "https://www.istarbucks.co.kr/upload/store/skuimg/2015/08/[107051]_20150804111927300.jpg",
+    "kcal": 100
+  },
+  {
+    "id": 324,
+    "name": "패션 탱고 티 레모네이드 피지오",
+    "description": "패션 티와 상큼한 레모네이드를 스파클링한 시원하고 청량감 있는 음료입니다.",
+    "price": 9400,
+    "image": "https://www.istarbucks.co.kr/upload/store/skuimg/2016/09/[107031]_20160905102946365.jpg",
+    "kcal": 65
+  },
+  {
+    "id": 325,
+    "name": "핑크 자몽 피지오",
+    "description": "신선하게 착즙한 자몽이 스타벅스 만의 수제 탄산음료로 선보입니다.\r\n핑크빛의 생자몽으로 아름다운 비주얼과 신선함을 느껴 보세요. ",
+    "price": 9600,
+    "image": "https://www.istarbucks.co.kr/upload/store/skuimg/2018/06/[9200000001321]_20180601160716804.jpg",
+    "kcal": 185
+  }
+]

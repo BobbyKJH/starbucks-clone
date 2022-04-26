@@ -1,0 +1,122 @@
+[
+  {
+    "id": 363,
+    "name": "시그니처 핫 초콜릿",
+    "description": "유럽 스타일의 진한 핫 초콜릿으로 휘핑크림과 코코아 파우더가 토핑된 음료.",
+    "price": 6400,
+    "image": "https://www.istarbucks.co.kr/upload/store/skuimg/2015/08/[72]_20150813231821724.jpg",
+    "kcal": 435
+  },
+  {
+    "id": 364,
+    "name": "아이스 시그니처 초콜릿",
+    "description": "진한 초콜릿과 시원한 우유에 휘핑과 코코아 파우더가 얹어진 음료.",
+    "price": 8200,
+    "image": "https://www.istarbucks.co.kr/upload/store/skuimg/2015/07/[110621]_20150723005650081.jpg",
+    "kcal": 435
+  },
+  {
+    "id": 365,
+    "name": "플러피 판다 핫 초콜릿",
+    "description": "고소한 헤이즐넛과 진한 핫초콜릿의 만남,\r\n귀여운 판다까지 더해진 플러피 판다 핫 초콜릿! \r\n\r\n* 용인에버랜드R 매장에서만 판매하는 음료입니다",
+    "price": 5600,
+    "image": "https://www.istarbucks.co.kr/upload/store/skuimg/2019/12/[9200000002594]_20191212184806553.jpg",
+    "kcal": 480
+  },
+  {
+    "id": 366,
+    "name": "매직 윈터 트로피컬 핫 펀치",
+    "description": "새콤달콤한 파인애플과 패션후르츠의 환상적인 만남, \r\n남녀노소 따뜻하게 즐길 수 있는 매직 윈터 트로피컬 핫 펀치!\r\n\r\n* 용인에버랜드R 매장에서만 판매하는 음료입니다",
+    "price": 8400,
+    "image": "https://www.istarbucks.co.kr/upload/store/skuimg/2019/12/[9200000002595]_20191212184851924.jpg",
+    "kcal": 335
+  },
+  {
+    "id": 367,
+    "name": "스팀 우유",
+    "description": "부드럽고 담백한 따뜻한 우유.",
+    "price": 3200,
+    "image": "https://www.istarbucks.co.kr/upload/store/skuimg/2015/07/[17]_20150723005119481.jpg",
+    "kcal": 215
+  },
+  {
+    "id": 368,
+    "name": "아이스 라임 플로터",
+    "description": "[더종로R,청담스타R,한강진역R,홍대입구역사거리R 전용음료] 라임, 민트 그리고 리저브 콜드 브루 샷으로 스타벅스 리저브만의 색깔로 변주한 모히토 음료입니다.",
+    "price": 9100,
+    "image": "https://www.istarbucks.co.kr/upload/store/skuimg/2017/02/[9200000000429]_20170220161700272.jpg",
+    "kcal": 110
+  },
+  {
+    "id": 369,
+    "name": "아이스 오렌지 플로터",
+    "description": "[더종로R,청담스타R,한강진역R,홍대입구역사거리R 전용음료] 오렌지의 상큼함과 리저브 콜드 브루 샷이 상쾌하게 느껴지는 리프레쉬 음료입니다.",
+    "price": 5700,
+    "image": "https://www.istarbucks.co.kr/upload/store/skuimg/2017/02/[9200000000428]_20170220161626329.jpg",
+    "kcal": 100
+  },
+  {
+    "id": 370,
+    "name": "아이스 제주 까망 라떼",
+    "description": "[제주지역 한정음료] 제주도의 돌담길과 하르방의 풍경을 제주 까망 라떼로 느껴보세요.\r\n고소한 흑임자와 달콤한 소보로 토핑으로 시원하게 누구나 즐길 수 있는 음료입니다.\r\n",
+    "price": 2300,
+    "image": "https://www.istarbucks.co.kr/upload/store/skuimg/2018/04/[9200000001302]_20180418152834948.jpg",
+    "kcal": 225
+  },
+  {
+    "id": 371,
+    "name": "아이스 제주 레드 빈 라떼",
+    "description": "[제주지역 한정음료] 제주 화산송이를 형상화한 음료로\r\n국내산 레드 빈으로 표현한 뉴트로 음료로 고급진 레드 빈의 맛을\r\n제주 스타벅스에서 즐겨보세요.",
+    "price": 1600,
+    "image": "https://www.istarbucks.co.kr/upload/store/skuimg/2020/02/[9200000002670]_20200220135516783.jpg",
+    "kcal": 425
+  },
+  {
+    "id": 372,
+    "name": "아이스 제주 청보리 라떼",
+    "description": "[제주지역 한정음료] 제주 바람의 숲 가파도를 연상시키는\r\n음료로 청보리의 풋풋하고 고소함이 함께 느껴지는 음료.\r\n제주 청보리 라떼로 가파도 길을 느껴보세요.",
+    "price": 10000,
+    "image": "https://www.istarbucks.co.kr/upload/store/skuimg/2020/02/[9200000002667]_20200220135233846.jpg",
+    "kcal": 395
+  },
+  {
+    "id": 373,
+    "name": "우유",
+    "description": "고소하고 담백한 신선한 우유.",
+    "price": 2100,
+    "image": "https://www.istarbucks.co.kr/upload/store/skuimg/2015/07/[18]_20150723002143131.jpg",
+    "kcal": 240
+  },
+  {
+    "id": 374,
+    "name": "제주 까망 라떼",
+    "description": "[제주지역 한정음료] 제주도의 돌담길과 하르방의 풍경을 제주 까망 라떼로 느껴보세요.\r\n고소한 흑임자와 달콤한 소보로 토핑으로 누구나 즐길 수 있는 음료입니다.",
+    "price": 5200,
+    "image": "https://www.istarbucks.co.kr/upload/store/skuimg/2018/04/[9200000001301]_20180418152720660.jpg",
+    "kcal": 225
+  },
+  {
+    "id": 375,
+    "name": "제주 레드 빈 라떼",
+    "description": "[제주지역 한정음료] 제주 화산송이를 형상화한 음료로\r\n국내산 레드 빈으로 표현한 뉴트로 음료로 고급진 레드 빈의 맛을\r\n제주 스타벅스에서 즐겨보세요.",
+    "price": 1900,
+    "image": "https://www.istarbucks.co.kr/upload/store/skuimg/2020/02/[9200000002669]_20200220135416447.jpg",
+    "kcal": 410
+  },
+  {
+    "id": 376,
+    "name": "제주 쑥쑥 라떼",
+    "description": "[제주지역 한정음료] 제주의 푸릇푸릇한 쑥 향을 느끼며 건강과 \r\n힐링을 즐기는 음료로 제주의 오름길을 상징하는 음료. \r\n제주 쑥으로 향긋하고 푸릇푸릇한 쑥 향을 느끼며 \r\n건강과 힐링을 느낄 수 있는 Non Coffee음료.",
+    "price": 5500,
+    "image": "https://www.istarbucks.co.kr/upload/store/skuimg/2019/02/[9200000002089]_20190221165720118.jpg",
+    "kcal": 425
+  },
+  {
+    "id": 377,
+    "name": "제주 청보리 라떼",
+    "description": "[제주지역 한정음료] 제주 바람의 숲 가파도를 연상시키는\r\n음료로 청보리의 풋풋하고 고소함이 함께 느껴지는 음료.\r\n제주 청보리 라떼로 가파도 길을 느껴보세요.",
+    "price": 2900,
+    "image": "https://www.istarbucks.co.kr/upload/store/skuimg/2020/02/[9200000002666]_20200220135145724.jpg",
+    "kcal": 455
+  }
+]
