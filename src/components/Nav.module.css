@@ -6,7 +6,10 @@ ul {
   margin: 0;
   padding: 0;
 }
-
+.header {
+  width: 100%;
+  background-color: #f6f5ef;
+}
 /* 전체 박스 */
 .body {
   display: flex;

@@ -8,7 +8,8 @@ hr {
 /* 로그인 박스 */
 .box {
   background-color: #fff;
-  border: 3px solid black;
+  border: 3px solid white;
+  box-sizing: border-box;
   margin: 50px auto;
   width: 600px;
   height: 500px;

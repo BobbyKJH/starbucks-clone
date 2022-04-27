@@ -1,0 +1,15 @@
+.menu {
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+
+.box {
+  display: inline-block;
+  margin: 20px;
+}
+
+.title {
+  text-align: center;
+  margin: 0;
+}

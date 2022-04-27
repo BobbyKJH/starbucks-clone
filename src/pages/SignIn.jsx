@@ -8,9 +8,8 @@ function SignIn() {
     <div className={styles.backGround}>
       <Nav />
       <div className={styles.SecondNav}>
-        <SecondNav name={"HOME"} menu={"SignIn"} />
+        <SignInBox />
       </div>
-      <SignInBox />
     </div>
   );
 }
