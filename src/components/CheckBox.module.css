@@ -1,0 +1,9 @@
+.select {
+  display: inline-block;
+  margin: 0 auto;
+  width: 500px;
+  text-align: left;
+}
+.select:first-child {
+  width: 100%;
+}

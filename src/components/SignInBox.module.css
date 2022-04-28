@@ -1,9 +1,19 @@
 hr {
   margin: 0;
 }
+h1 {
+  z-index: 1;
+}
 /* 전체 배경 스타일 */
 .body {
   border: 1px solid black;
+}
+
+.signIn {
+  color: #fff;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 30px;
 }
 /* 로그인 박스 */
 .box {
@@ -11,6 +21,7 @@ hr {
   border: 3px solid white;
   box-sizing: border-box;
   margin: 50px auto;
+  margin-top: 0;
   width: 600px;
   height: 500px;
 }
@@ -18,11 +29,9 @@ hr {
 .title {
   background-color: #fff;
   text-align: center;
-  justify-content: center;
-  align-items: center;
-  display: flex;
+  display: block;
   margin: 0;
-  height: 80px;
+  padding: 30px 20px;
 }
 .title > span {
   color: #006633;
@@ -65,8 +74,11 @@ hr {
 }
 .join {
   display: block;
-  width: 33.3%;
   text-align: center;
+  /* align-items: center; */
+  justify-content: center;
+  width: 33.3%;
+  font-size: 16px;
   margin-left: 30px;
   margin-right: 30px;
 }

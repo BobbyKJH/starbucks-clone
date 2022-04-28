@@ -20,6 +20,8 @@ function SignInBox() {
 
   return (
     <div className={styles.body}>
+      <h2 className={styles.signIn}>로그인</h2>
+
       <div className={styles.box}>
         <h4 className={styles.title}>
           <span>Welcome!</span> 스타벅스 코리아에 오신 것을 환영합니다.

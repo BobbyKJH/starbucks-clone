@@ -19,6 +19,7 @@ ul {
   right: 0;
   left: 0;
   height: 120px;
+  z-index: 1;
 }
 
 /* 제목 */

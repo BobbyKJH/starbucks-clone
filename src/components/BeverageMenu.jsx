@@ -1,64 +1,77 @@
 import { useState } from "react";
 import styles from "./BeverageMenu.module.css";
+// 컴포넌트
 import SelectCoffee from "./SelectCoffee";
+import CheckBox from "./CheckBox";
+// JSON 파일
+import ColdBrewCoffee from "../json/ColdBrewCoffee.json";
+import BrewedCoffee from "../json/BrewedCoffee.json";
+import Esspresso from "../json/Esspresso.json";
+import Frappuccino from "../json/Frappuccino.json";
 import Blended from "../json/Blended.json";
+import Fijio from "../json/Fijio.json";
+import Tea from "../json/Tea.json";
+import Etc from "../json/Etc.json";
+import TotalMenu from "./menu/TotalMenu";
 
 function BeverageMenu() {
   const [total, setTotal] = useState(true);
   const [content, setContent] = useState(false);
 
-  const Check = () => {
-    if (total === true) {
-      setTotal(false);
+  const CheckTotal = () => {
+    if (total === false) {
+      setTotal(true);
       setContent(false);
     } else {
-      setTotal(true);
+      setTotal(false);
     }
   };
 
+  const CheckContent = () => {
+    if (content === false) {
+      setContent(true);
+      setTotal(false);
+    } else {
+      setContent(false);
+    }
+  };
   return (
     <div className={styles.body}>
       <div className={styles.menu}>
-        <div className={styles.select}>
-          <input type="checkbox" checked={total} />
-          <span>전체 상품 보기</span>
-        </div>
-        <div className={styles.select}>
-          <input type="checkbox" />
-          <span>콜드 브류 커피</span>
-        </div>
-        <div className={styles.select}>
-          <input type="checkbox" checked={content} />
-          <span>브루드 커피</span>
-        </div>
-        <div className={styles.select}>
-          <input type="checkbox" checked={content} />
-          <span>에스프레소</span>
-        </div>
-        <div className={styles.select}>
-          <input type="checkbox" checked={content} />
-          <span>프라푸치노</span>
-        </div>
-        <div className={styles.select}>
-          <input type="checkbox" checked={content} />
-          <span>블렌디드</span>
-        </div>
-        <div className={styles.select}>
-          <input type="checkbox" checked={content} />
-          <span>스타벅스 피지오</span>
-        </div>
-        <div className={styles.select}>
-          <input type="checkbox" checked={content} />
-          <span>티(티바나)</span>
-        </div>
-        <div className={styles.select}>
-          <input type="checkbox" checked={content} />
-          <span>기타 제조 음료</span>
-        </div>
+        {/* 1 */}
+        <CheckBox name={"전체 상품 보기"} check={total} change={CheckTotal} />
+        {/* 2 */}
+        <CheckBox
+          name={"콜드 브류 커피"}
+          check={content}
+          change={CheckContent}
+        />
+        {/* 3 */}
+        <CheckBox name={"브루드 커피"} check={content} change={CheckContent} />
+        {/* 4 */}
+        <CheckBox name={"에스프레소"} check={content} change={CheckContent} />
+        {/* 5 */}
+        <CheckBox name={"프라푸치노"} check={content} change={CheckContent} />
+        {/* 6 */}
+        <CheckBox name={"블렌디드"} check={content} change={CheckContent} />
+        {/* 7 */}
+        <CheckBox
+          name={"스타벅스 피지오"}
+          check={content}
+          change={CheckContent}
+        />
+        {/* 8 */}
+        <CheckBox name={"티 (티바나)"} check={content} change={CheckContent} />
+        {/* 9 */}
+        <CheckBox
+          name={"기타 제조 음료"}
+          check={content}
+          change={CheckContent}
+        />
       </div>
       <hr />
 
-      {/* {coffee ? <SelectCoffee menus={Blended} /> : <div></div>} */}
+      {total ? <TotalMenu /> : <div></div>}
     </div>
   );
 }
