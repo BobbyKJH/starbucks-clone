@@ -1,5 +1,7 @@
 import styles from "./Nav.module.css";
+import { useState } from "react";
 import { Link } from "react-router-dom";
+import SideBar from "./SideBar";
 
 function Nav() {
   return (
@@ -18,9 +20,12 @@ function Nav() {
         <Link to="/menu" className={styles.content}>
           MENU
         </Link>
-        <Link to="/store" className={styles.content}>
-          STORE
-        </Link>
+        <div className={styles.sideBar}>
+          <Link to="/store" className={styles.content}>
+            STORE
+          </Link>
+          <div className={styles.h1}>1</div>
+        </div>
 
         <Link to="/signin" className={styles.signin}>
           로그인

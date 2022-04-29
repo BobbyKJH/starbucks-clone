@@ -16,12 +16,25 @@
 
 .box {
   display: inline-block;
+  width: 250px;
+  overflow: hidden;
+  border: 3px solid black;
   margin: 20px 10px;
   box-sizing: border-box;
 }
-
+.box:hover {
+  border: 3px solid red;
+}
+/* 커피 이름 */
 .title {
   text-align: center;
-  font-size: 16px;
+  font-size: 12px;
   margin: 0;
+}
+.img {
+  width: 100%;
+  background-position: center;
+}
+.price {
+  font-size: 16px;
 }

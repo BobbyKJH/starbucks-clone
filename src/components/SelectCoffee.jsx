@@ -9,6 +9,7 @@ export default function SelectCoffee({ name, menus }) {
       {menus.map((menu) => (
         <ul key={menu.id} className={styles.box}>
           <img src={menu.image} alt={menu.name} className={styles.img} />
+          <p className={styles.price}>{menu.price}원</p>
           <p className={styles.title}>{menu.name}</p>
         </ul>
       ))}
