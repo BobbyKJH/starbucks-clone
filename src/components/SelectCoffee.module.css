@@ -3,6 +3,7 @@
   display: block;
   text-align: center;
   margin: auto;
+  overflow: auto;
 }
 
 .titleName {
@@ -17,6 +18,7 @@
 .box {
   display: inline-block;
   width: 250px;
+  height: 350px;
   overflow: hidden;
   border: 3px solid black;
   margin: 20px 10px;
@@ -34,6 +36,10 @@
 .img {
   width: 100%;
   background-position: center;
+  transform: 0.4s;
+}
+.img:hover {
+  width: 120%;
 }
 .price {
   font-size: 16px;

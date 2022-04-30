@@ -1,35 +1,39 @@
 import styles from "./Nav.module.css";
+import logo from "../images/starbucks_logo.png";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import SideBar from "./SideBar";
+import SubNav from "./SubNav";
 
 function Nav() {
   return (
     <header className={styles.header}>
       <div className={styles.body}>
-        <Link to="/" className={styles.title}>
-          <img
-            className={styles.logo}
-            src="https://t1.daumcdn.net/cfile/tistory/99857F4F5E738F472F"
-            alt="starbucks logo"
-          />
+        <Link to="/">
+          <img src={logo} className={styles.logo} />
         </Link>
-        <Link to="/coffee" className={styles.content}>
-          COFFEE
-        </Link>
-        <Link to="/menu" className={styles.content}>
-          MENU
-        </Link>
-        <div className={styles.sideBar}>
-          <Link to="/store" className={styles.content}>
-            STORE
-          </Link>
-          <div className={styles.h1}>1</div>
+        <div className={styles.main}>
+          <ul>
+            <Link className={styles.link} to="/coffee">
+              COFFEE
+            </Link>
+            <div className={styles.subMenu}>
+              <SubNav />
+            </div>
+          </ul>
+          <ul>
+            <Link className={styles.link} to="/menu">
+              MENU
+            </Link>
+            <div className={styles.subMenu}>
+              <SubNav />
+            </div>
+          </ul>
+          <ul>
+            <Link className={styles.link} to="/store">
+              STORE
+            </Link>
+          </ul>
         </div>
-
-        <Link to="/signin" className={styles.signin}>
-          로그인
-        </Link>
       </div>
     </header>
   );

@@ -1,0 +1,29 @@
+li {
+  list-style: none;
+}
+
+.body {
+  background-color: #808080;
+}
+.box {
+  width: 1100px;
+  background-color: #808080;
+  display: flex;
+  margin: auto;
+  list-style: none;
+}
+.nav {
+  margin: 0 10px;
+  padding: 20px;
+}
+.navTitle {
+  color: #fff;
+  font-size: 8px;
+  font-weight: 700;
+  line-height: 50px;
+}
+.navContent {
+  color: #333;
+  font-size: 4px;
+  line-height: 20px;
+}

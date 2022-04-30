@@ -1,88 +1,71 @@
-body {
-  margin: 0;
-  padding: 0;
-}
 ul {
   margin: 0;
   padding: 0;
 }
+
 .header {
-  width: 100%;
+  display: block;
   background-color: #f6f5ef;
-}
-/* 전체 박스 */
-.body {
-  display: flex;
-  position: fixed;
-  background-color: #f6f5ef;
-  top: 0;
-  right: 0;
   left: 0;
-  height: 120px;
+  right: 0;
   z-index: 1;
 }
-
-/* 제목 */
-.title {
-  justify-content: space-between;
-  align-items: center;
-  display: flex;
-  text-decoration: none;
-  margin: 0 150px;
+.body {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  width: 1100px;
+  margin: auto;
+  background-color: #f6f5ef;
 }
-
-/* 스타벅스 로고 */
 .logo {
+  position: absolute;
+  margin: 10px;
   width: 100px;
 }
-
-/* nav 내용 */
-.content {
-  width: 20%;
-  justify-content: center;
-  align-items: center;
+.main {
+  position: absolute;
+  top: 60px;
+  left: 250px;
   display: flex;
+  height: 60px;
+  /* justify-content: baseline; */
+  /* align-items: baseline; */
+}
+.link {
   text-decoration: none;
-  text-align: center;
+  padding: 10px;
   color: #333;
-  transition: 1s;
 }
-.content:hover {
-  color: #669900;
+.link:hover {
   text-decoration: underline;
-  font-size: 120%;
+  background-color: aqua;
+  color: #669900;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
-.signin {
-  width: 30%;
-  font-size: 8px;
-  text-decoration: none;
+.main > ul {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: 1s;
+  /* height: 60px; */
 }
-.signin:hover {
-  color: #669900;
-  text-decoration: underline;
-  font-size: 90%;
+.main > ul > .link {
+  padding: 0 30px;
+  padding-top: 20px;
+  font-size: 12px;
 }
-.menu {
-  top: 120px;
-  position: fixed;
-  height: 500px;
-  width: 100%;
-  background-color: #333;
-}
-.h1 {
+.subMenu {
   display: none;
-  position: fixed;
-  top: 120px;
-  background-color: black;
 }
-.sideBar {
-  display: flex;
-}
-.sideBar:hover .h1 {
+.main > ul:hover > .subMenu {
   display: block;
-  width: 100%;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 120px;
+  /* background-color: black;
+  color: #f6f5ef;
+  background-attachment: scroll;
+  height: 100px; */
 }
